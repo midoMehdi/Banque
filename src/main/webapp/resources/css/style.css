@@ -1,0 +1,302 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 avr. 2021, 07:53:17
+    Author     : Mehdi
+*/
+
+/*
+                choixCompte.jsp
+*/
+body{
+    background-image: url("${pageContext.servletContext.contextPath}/resources/images/background.jpg");
+    font-family: Georgia, serif;
+}
+header{
+    overflow: hidden;
+}
+header button{
+    float: right;
+    background-color: #1A1A6D; 
+  color: white; 
+  border: 3px solid #1A1A6D;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 8%;
+    
+}
+
+.containerSignBank{
+    background: #fff;
+    padding: 40px 30px 40px 30px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+}
+.containerSignBank .form-check{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.form-check-label div{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.form-check-input {
+    height: 15px;
+    width: 15px;
+}
+.containerSignBank .divOne , .containerSignBank .divTwo {
+    padding: 8px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #1A1A6D;
+  border: 3px #1A1A6D solid;
+    color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 5px 10px 5px;
+  width: 420px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+    
+    background-color: white;
+  border: 3px #1A1A6D solid;
+  color: #1A1A6D;
+}
+.divOne{
+    font-size: 23px;
+}
+.divTwo{
+    font-size: 15px;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+}
+
+
+
+
+/*
+                           enregistrement.jsp
+*/
+
+
+
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+/*                         connexion.jsp                        */
+
+.login-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+    
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+
+.login-container form{
+    padding: 10%;
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    border-radius: 10px;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: 2px white solid;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+
+
+/*                              accueil.jsp                       */ 
+
+
+.bodyAccueil{
+    background-color: #F5F5F5;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 30%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background: -webkit-linear-gradient(left, #D5D5D5, #CCC7C7);
+    border-radius: 5px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 65%;
+  
+}
+
+.affichageCompte{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+    
+}
+.affichageCompte .detailCompte {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    border-radius: 20px;
+}
+
+.column.side th, .column.side td, .column.middle th , .column.middle td {
+    padding: 10px;
+}
+.operationsData{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    border-radius: 20px;
+}
+
+
+
+
+
+

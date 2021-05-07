@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/AnimalKeeperMaven">
+  <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/demo" password="tp3" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/Hello" username="tp3"/>
+  <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/test" password="Test" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/Test" username="Test"/>
+  <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver" maxActive="20" maxIdle="10" maxWait="-1" name="demodemo" password="TestTwo" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/TestTwo" username="TestTwo"/>
+</Context>
